@@ -1,0 +1,20 @@
+spring:
+  # ???????
+  datasource:
+    # ???????
+    type: com.zaxxer.hikari.HikariDataSource
+    # ?????????
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/mybatis_plus
+    username: root
+    password: root
+# ??MyBatis??
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      table-prefix: t_
+      id-type: auto
+  # 扫描通用枚举
+  type-enums-package: com/ww/enums
