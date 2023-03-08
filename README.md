@@ -458,7 +458,7 @@ public void testSelectList(){
     list.forEach(user -> System.out.println(user));
 }
 ```
-![image-20230308145350636](https://picture-20221025.oss-cn-hangzhou.aliyuncs.com/img/image-20230308145350636.png)
+![image-20230308151404727](https://picture-20221025.oss-cn-hangzhou.aliyuncs.com/img/image-20230308151404727.png)
 
 ### 6、自定义功能
 
