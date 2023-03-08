@@ -1252,6 +1252,7 @@ public class MyBatisPlusConfig {
 3.  再次测试之前代码
 ![image-20230308150053987](https://picture-20221025.oss-cn-hangzhou.aliyuncs.com/img/image-20230308150053987.png)
 ![image-20230308150058468](https://picture-20221025.oss-cn-hangzhou.aliyuncs.com/img/image-20230308150058468.png)
+
 可以发现小王的修改操作没有执行，所以最后是150元 
 
 #### 3.6 优化流程
